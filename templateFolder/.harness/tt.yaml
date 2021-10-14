@@ -1,0 +1,17 @@
+connector:
+  name: tt
+  identifier: tt
+  description:
+  orgIdentifier: default
+  projectIdentifier: TemplateGitSynTesting
+  type: Github
+  spec:
+    url: https://abc
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: adwsf
+          tokenRef: ewfe
+    type: Repo
