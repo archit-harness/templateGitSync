@@ -1,0 +1,20 @@
+template:
+  projectIdentifier: TemplateGitSynTesting
+  orgIdentifier: default
+  identifier: template1
+  versionLabel: v1
+  name: Template1
+  type: Step
+  spec:
+    type: ShellScript
+    spec: 
+        shell: Bash
+        onDelegate: true
+        source:
+            type: Inline
+            spec:
+                script: <+input>
+        environmentVariables: []
+        outputVariables: []
+        executionTarget: {} 
+    timeout: <+input>
