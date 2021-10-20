@@ -3,7 +3,7 @@ template:
   orgIdentifier: default
   identifier: template2
   versionLabel: v1
-  description: "Archit Testing"
+  description: "Archit Testing New"
   name: Template2
   type: Step
   spec:
