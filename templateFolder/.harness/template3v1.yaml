@@ -4,6 +4,7 @@ template:
   identifier: template3
   versionLabel: v1
   name: Template3
+  description: "Another testing"
   type: Step
   spec:
     type: ShellScript
